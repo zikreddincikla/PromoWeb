@@ -1,0 +1,42 @@
+@media (max-width:768px) {
+    #hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "hero-text" "hero-buttons";
+        gap: 30px;
+        padding: 100px 20px 40px 20px;
+    }
+
+    #heading {
+        font-size: 25px;
+    }
+
+    #hero-list h2 {
+        font-size: 22px;
+    }
+
+    #hero-text {
+        font-size: 40px;
+
+    }
+
+    #address iframe {
+        height: 300px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #page-up {
+        margin: 0;
+        right: 20px;
+        bottom: 20px;
+        padding: 13px 20px;
+        font-size: 24px;
+    }
+}
